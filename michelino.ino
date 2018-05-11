@@ -53,7 +53,7 @@
 SoftwareSerial BTSerial(BT_RX_PIN, BT_TX_PIN);
 
 #ifdef ENABLE_ADAFRUIT_MOTOR_DRIVER
-#include <AFMotor.h>
+#include "AFMotor.h"
 #include "adafruit_motor_driver.h"
 #define LEFT_MOTOR_INIT 1
 #define RIGHT_MOTOR_INIT 3
